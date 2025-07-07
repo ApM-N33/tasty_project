@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "category": "main",
+    "icon": "MeatIcon",
+    "btnText": "Main",
+    "isActive": false
+  },
+  {
+    "id": 1,
+    "category": "dessert",
+    "icon": "CutleryIcon",
+    "btnText": "Dessert",
+    "isActive": false
+  },
+  {
+    "id": 2,
+    "category": "drinks",
+    "icon": "DrinkIcon",
+    "btnText": "Drinks",
+    "isActive": false
+  }
+]

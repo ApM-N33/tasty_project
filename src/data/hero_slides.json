@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "heroBgImg": "bg_1.jpg.webp",
+    "heroTitle": "Book a table for yourself at a time convenient for you",
+    "heroLinkText": "Book a table"
+  },
+
+  {
+    "id": 1,
+    "heroBgImg": "bg_2.jpg.webp",
+    "heroTitle": "Tasty & Delicious Food",
+    "heroLinkText": "Book a table"
+  },
+
+  {
+    "id": 2,
+    "heroBgImg": "bg_3.jpg.webp",
+    "heroTitle": "Book a table for yourself at a time convenient for you",
+    "heroLinkText": "Book a table"
+  }
+]

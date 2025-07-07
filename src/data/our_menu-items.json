@@ -1,0 +1,253 @@
+[
+  {
+    "id": 0,
+    "category": "main",
+    "menuItems": [
+      {
+        "id": 1,
+        "menuImg": "dish-3.jpg.webp",
+        "menuTitle": "Grilled Beef with potatoes",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 2,
+        "menuImg": "dish-4.jpg.webp",
+        "menuTitle": "Fruit Vanilla Ice Cream",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 3,
+        "menuImg": "dish-5.jpg.webp",
+        "menuTitle": "Asian Hoisin Pork",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 4,
+        "menuImg": "dish-6.jpg.webp",
+        "menuTitle": "Spicy Fried Rice & Bacon",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 5,
+        "menuImg": "dish-7.jpg.webp",
+        "menuTitle": "Mango Chili Chutney",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      }
+    ]
+  },
+
+  {
+    "id": 1,
+    "category": "main",
+    "menuItems": [
+      {
+        "id": 6,
+        "menuImg": "dish-8.jpg.webp",
+        "menuTitle": "Savory Watercress Chinese Pancakes",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 7,
+        "menuImg": "dish-9.jpg.webp",
+        "menuTitle": "Soup With Vegetables And Meat",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 8,
+        "menuImg": "dish-10.jpg.webp",
+        "menuTitle": "Udon Noodles With Vegetables",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 9,
+        "menuImg": "dish-11.jpg.webp",
+        "menuTitle": "Baked Lobster With A Garnish",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 10,
+        "menuImg": "dish-12.jpg.webp",
+        "menuTitle": "Octopus with Vegetables",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "category": "dessert",
+    "menuItems": [
+      {
+        "id": 11,
+        "menuImg": "dessert-1.jpg.webp",
+        "menuTitle": "Grilled Beef with potatoes",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 12,
+        "menuImg": "dessert-2.jpg.webp",
+        "menuTitle": "Grilled Beef with potatoes",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 13,
+        "menuImg": "dessert-3.jpg.webp",
+        "menuTitle": "Grilled Beef with potatoes",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 14,
+        "menuImg": "dessert-4.jpg.webp",
+        "menuTitle": "Grilled Beef with potatoes",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 15,
+        "menuImg": "dessert-5.jpg.webp",
+        "menuTitle": "Grilled Beef with potatoes",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      }
+    ]
+  },
+
+  {
+    "id": 3,
+    "category": "dessert",
+    "menuItems": [
+      {
+        "id": 12,
+        "menuImg": "dessert-6.jpg.webp",
+        "menuTitle": "Tiramisu",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 13,
+        "menuImg": "dessert-7.jpg.webp",
+        "menuTitle": "Chocolate Cream",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 14,
+        "menuImg": "dessert-8.jpg.webp",
+        "menuTitle": "Pizza Pie",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 15,
+        "menuImg": "dessert-9.jpg.webp",
+        "menuTitle": "Sicilian Ricotta",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 16,
+        "menuImg": "dessert-10.jpg.webp",
+        "menuTitle": "Mango FLoat",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      }
+    ]
+  },
+
+  {
+    "id": 4,
+    "category": "drinks",
+    "menuItems": [
+      {
+        "id": 17,
+        "menuImg": "drink-1.jpg.webp",
+        "menuTitle": "Lemon Juice",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 18,
+        "menuImg": "drink-2.jpg.webp",
+        "menuTitle": "Guava Juice",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 19,
+        "menuImg": "drink-3.jpg.webp",
+        "menuTitle": "Sprite",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 20,
+        "menuImg": "drink-4.jpg.webp",
+        "menuTitle": "Cola",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 21,
+        "menuImg": "drink-5.jpg.webp",
+        "menuTitle": "Wine",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      }
+    ]
+  },
+
+  {
+    "id": 5,
+    "category": "drinks",
+    "menuItems": [
+      {
+        "id": 22,
+        "menuImg": "drink-6.jpg.webp",
+        "menuTitle": "Beer",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 23,
+        "menuImg": "drink-7.jpg.webp",
+        "menuTitle": "Mango Juice",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 24,
+        "menuImg": "drink-8.jpg.webp",
+        "menuTitle": "Apple Juice",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 25,
+        "menuImg": "drink-9.jpg.webp",
+        "menuTitle": "Strawberry Juice",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      },
+      {
+        "id": 26,
+        "menuImg": "drink-10.jpg.webp",
+        "menuTitle": "Orange Juice",
+        "menuDesc": "Meat, Potatoes, Rice, Tomatoe",
+        "menuPrice": "$29"
+      }
+    ]
+  }
+]

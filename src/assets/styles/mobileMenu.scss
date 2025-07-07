@@ -1,0 +1,47 @@
+/* //// COLOR VERIABLES /////// */
+
+:root {
+  --white-1st: #fff;
+  --white-2nd: #f0f0f0;
+  --white-3rd: #ffffff80;
+  --gray-1st: rgba(255, 255, 255, 0.5);
+  --gray-2nd: #cccccc;
+  --gray-3rd: #aaaaaf;
+  --gray-4th: #a5a5ab;
+  --gray-5th: #8b8b92;
+  --yellow-1st: #ffb400;
+  --black-1st: #0000;
+  --black-2nd: #27272b;
+  --black-3rd: #404044;
+}
+
+/* ////////////////////////////// */
+
+/* /// Mobile Menu STYLES ///// */
+
+.burger-btn {
+  border: 2px solid var(--black-3rd);
+  border-radius: 6px;
+  background-color: unset;
+  color: var(--white-3rd);
+  letter-spacing: 1px;
+  column-gap: 5px;
+  padding: 2px;
+
+  &.active {
+    border: 2px solid var(--yellow-1st);
+    border-radius: 6px;
+  }
+
+  .burger_btn-icon {
+    font-size: 25px;
+  }
+}
+
+.mobile-menu {
+  .nav-link {
+    padding: 13px 0 !important;
+  }
+}
+
+/* ///////////////////////////// */

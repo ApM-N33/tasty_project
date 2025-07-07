@@ -1,0 +1,275 @@
+/* //// COLOR VERIABLES /////// */
+
+:root {
+  --white-1st: #fff;
+  --white-2nd: #fafafa;
+  --white-3rd: #ffffff80;
+  --gray-1st: rgba(255, 255, 255, 0.5);
+  --gray-2nd: #cccccc;
+  --gray-3rd: #aaaaaf;
+  --gray-4th: #a5a5ab;
+  --gray-5th: #8b8b92;
+  --gray-6th: #dadadc;
+  --yellow-1st: #ffb400;
+  --black-1st: #000000;
+  --black-2nd: #27272b;
+  --black-3rd: #404044;
+}
+
+/* /////////////////////////////////////// */
+
+/* ///////// DARK THEME COLORS //////////// */
+
+body {
+  transition: background 0.15 ease;
+}
+
+body * {
+  transition: background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+body.dark {
+  background-color: #18181b;
+}
+
+body.dark .label-text {
+  color: var(--gray-1st);
+}
+
+/* ////// ABOUT TASTY //////////*/
+
+body.dark .about-title,
+body.dark .our-title {
+  color: var(--white-2nd);
+}
+
+/* /////////// OUR MENU ////////// */
+
+body.dark .our-menu {
+  background-color: var(--black-2nd);
+}
+
+body.dark .our_menu-card,
+body.dark .tab-btn {
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.556);
+}
+
+/* //////////////////////////////// */
+
+/* /////  Our Specialties ///////// */
+
+body.dark .our-specialties {
+  background-color: var(--black-2nd);
+}
+
+body.dark .our-specialties .spec-card {
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.556);
+}
+
+body.dark .our-specialties .specialties-title {
+  color: var(--white-2nd);
+}
+
+/* /////////////////////////////////////// */
+
+/* /////////// OUR-SATISFIED /////////////// */
+
+body.dark .our-satisfied .satisfied-title {
+  color: var(--white-2nd);
+}
+
+body.dark .our-satisfied .arrow {
+  color: var(--white-1st);
+}
+
+body.dark .our-satisfied .guestCard {
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.556);
+}
+
+/* ///////////////////////////////////////// */
+
+/* /////// RECENT-BLOG ///////////////// */
+
+body.dark .recent-blog {
+  background-color: var(--black-2nd);
+}
+
+body.dark .recent-blog .recent-title {
+  color: var(--white-2nd);
+}
+
+body.dark .recent-blog .recent-card {
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.556);
+}
+
+body.dark .recent-blog .arrow {
+  color: var(--white-1st);
+}
+
+/* /////////// INSTAGRAM ///////////////// */
+
+body.dark .instargram .instagram-label {
+  color: var(--white-2nd);
+  border-color: var(--white-1st);
+  box-shadow: 0 4px 17px rgba(255, 255, 255, 0.556);
+}
+
+/* ///////////// RESERVATION /////////////////// */
+
+body.dark .reservation .reservation-title {
+  color: var(--white-2nd);
+}
+
+body.dark .reservation .left_img-col {
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.556);
+}
+
+body.dark .reservation .form-col {
+  box-shadow: 0 4px 17px rgba(255, 255, 255, 0.556);
+}
+
+/* ////////////////////////////////////// */
+
+/* ///// RECENT-BLOG-> BLOG PAGE /////////////// */
+
+body.dark .recent-blog.blog .page-link {
+  box-shadow: 0 0px 7px rgba(255, 255, 255, 0.556);
+}
+
+/* /////////// OUR-CHEF //////////////// */
+
+body.dark .our-cheff .chef-card {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.556);
+}
+
+body.dark .our-cheff .chef-card .card-body {
+  padding: 16px 5px !important;
+}
+
+/* //////////////////////////////////////////// */
+
+/* ////// CONTACT-US /////////////////// */
+
+body.dark .contact-us .contact-title {
+  color: var(--white-2nd);
+}
+
+body.dark .contact-us .contact-item {
+  color: var(--white-2nd);
+  border-color: var(--white-3rd);
+  box-shadow: 0 0 17px rgba(255, 255, 255, 0.556);
+}
+
+body.dark .contact-us .input-wrap input,
+body.dark .contact-us .input-wrap textarea {
+  background-color: transparent;
+  box-shadow: 0 0 17px rgba(255, 255, 255, 0.556);
+  color: var(--white-1st);
+  border: 2px solid var(--white-3rd);
+}
+
+body.dark .contact-us .input-wrap input::placeholder,
+body.dark .contact-us .input-wrap textarea::placeholder {
+  color: var(--white-2nd);
+}
+
+body.dark .contact-us .contact-iframe {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.556);
+}
+
+// ///////// SINGLE BLOG STYLES /////////////////
+
+body.dark .single-blog .single_theme-card,
+body.dark .single-blog .author-card,
+body.dark .single-blog .comment-card {
+  background-color: transparent;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.556);
+}
+
+body.dark .single-blog .single_theme-card .card-title,
+body.dark .single-blog .author-card .card-title,
+body.dark .single-blog .comment-card .card-title {
+  color: var(--white-2nd);
+}
+
+body.dark .single-blog .single_theme-card .card-text,
+body.dark .single-blog .author-card .card-text,
+body.dark .single-blog .comment-card .card-text {
+  color: #c0c0c0;
+}
+
+body.dark .single-blog .single_theme-card,
+body.dark .single-blog .comment-card {
+  padding: 5px !important;
+}
+
+body.dark .single-blog .comment-card .reply-btn {
+  color: var(--white-2nd);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.556);
+}
+
+body.dark .single-blog .cloud-btn {
+  color: var(--white-2nd);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.556);
+}
+
+body.dark .single-blog .comments-title,
+body.dark .single-blog .category-title,
+body.dark .single-blog .comment_form-title {
+  color: var(--white-2nd);
+}
+
+body.dark .single-blog .comment-form {
+  background-color: transparent;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.556);
+}
+
+body.dark .single-blog .comment-form label {
+  color: var(--white-2nd);
+}
+
+body.dark .single-blog .comment-form input,
+body.dark .single-blog .comment-form textarea,
+body.dark .single-blog .search-input {
+  background-color: transparent;
+  caret-color: var(--white-2nd);
+  color: var(--white-2nd);
+  box-shadow: 0 0 17px rgba(255, 255, 255, 0.556);
+}
+
+body.dark .single-blog .comment-form button {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.556);
+}
+
+// //////////////////////////////////////////
+
+/* /////// SCROLL BTN STYLES /////// */
+
+body.dark .scroll_top-btn {
+  border-color: var(--white-1st);
+  color: var(--white-1st);
+}
+
+/* //////////////////////////////////////// */
+
+/* /////// DARK THEME BTN STYLES //////// */
+
+.theme-btn {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border: 2px solid var(--white-1st);
+  background-color: var(--black-2nd);
+  border-radius: 50%;
+  right: -35px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.theme-icon {
+  display: inline-block;
+  font-size: 27px;
+  color: var(--white-1st);
+}
+
+/* ///////////////////////////// */

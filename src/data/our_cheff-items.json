@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "chefName": "Thomas",
+    "chefLastName": "Smith",
+    "chefPosition": "Head Chef",
+    "chefImg": "about-2.jpg.webp"
+  },
+  {
+    "id": 1,
+    "chefName": "Francis",
+    "chefLastName": "Gibson",
+    "chefPosition": "Assistant Chef",
+    "chefImg": "chef-1.jpg"
+  },
+  {
+    "id": 2,
+    "chefName": "Angelo",
+    "chefLastName": "Maestro",
+    "chefPosition": "Assistant Chef",
+    "chefImg": "chef-3.jpg.webp"
+  }
+]

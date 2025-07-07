@@ -1,0 +1,45 @@
+{
+  "categoryTitle": "Categories",
+  "categoryItems": [
+    {
+      "id": 0,
+      "categoryText": "Food",
+      "categoryCount": 12
+    },
+    {
+      "id": 1,
+      "categoryText": "Dish",
+      "categoryCount": 22
+    },
+    {
+      "id": 2,
+      "categoryText": "Desserts",
+      "categoryCount": 37
+    },
+    {
+      "id": 3,
+      "categoryText": "Drinks",
+      "categoryCount": 42
+    },
+    {
+      "id": 4,
+      "categoryText": "Ocassion",
+      "categoryCount": 14
+    }
+  ],
+
+  "tagCloutText": "Tag Cloud",
+  "categoryBtns": [
+    "Dish",
+    "Menu",
+    "Food",
+    "Sweet",
+    "Tasty",
+    "Delicious",
+    "Desserts",
+    "Drinks"
+  ],
+
+  "categorySubtitle": "Paragraph",
+  "categoryDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!"
+}

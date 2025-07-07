@@ -1,0 +1,152 @@
+/* /////// GLOBAL STYLES ////////// */
+
+#root {
+  overflow-x: hidden;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* ////////////////////////////// */
+
+/* ///////mainContainer/////////// */
+
+.mainContainer {
+  max-width: 1134px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+/* ///// span label-text for title //////// */
+
+.label-text {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+}
+
+/* ///////// NAV-LINKS////////////// */
+
+.nav-link {
+  padding: 30px 20px;
+  color: var(--white-1st);
+  transition: all 0.5s ease;
+}
+
+.nav-link:hover,
+.nav-link.active:hover {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.nav-link.active {
+  color: var(--gray-3rd);
+  font-weight: 300;
+}
+
+/* ///////////////////////////////////// */
+
+/* ///// SLICK ARROWS STYLES ////// */
+
+.slick-arrow.slick-next {
+  width: 43px;
+  height: 43px;
+  z-index: 100;
+}
+
+.slick-arrow.slick-prev {
+  width: 43px;
+  height: 43px;
+  z-index: 100;
+}
+
+.slick-arrow.slick-next::before,
+.slick-arrow.slick-prev::before {
+  content: "";
+}
+
+/* ///////////////////////////////// */
+
+/* / SCROLL TOP BTN STYLES  */
+
+.scroll_top-btn {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 50px;
+  bottom: -300px;
+  border: 3px solid #000;
+  border-radius: 50%;
+  background-color: #ffaa00;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 7000;
+  transition: bottom 0.5s ease;
+
+  &.active {
+    bottom: 40px;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    background-color: #ffaa00;
+    border-radius: 50%;
+    animation: pulse 1s linear infinite;
+  }
+
+  .btn-icon {
+    font-size: 50px;
+    position: absolute;
+    z-index: 1;
+    animation: scrollTop 1s ease infinite;
+  }
+}
+
+/* //////////////////////////////// */
+
+/* ////// PRELOADER STYLES /////// */
+
+.preloader {
+  width: 100%;
+  height: 100%;
+  background-color: #141416;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+
+  h5 {
+    font-size: 150px;
+    font-weight: 900;
+    font-family: "Indie Flower", cursive;
+    color: var(--white-1st);
+    letter-spacing: 10px;
+  }
+}
+
+/* .preloader h5 {
+  font-size: 150px !important;
+  font-weight: 900 !important;
+  font-family: "Indie Flower", cursive !important;
+  color: var(--white-1st) !important;
+  letter-spacing: 10px !important;
+} */
+
+/* /////////////////////////////////// */
